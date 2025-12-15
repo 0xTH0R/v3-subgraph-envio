@@ -1,0 +1,26 @@
+{
+  "name": "uniswap-v3-envio-indexer",
+  "version": "1.0.0",
+  "description": "Uniswap V3 Protocol Indexer built with Envio",
+  "private": true,
+  "scripts": {
+    "codegen": "envio codegen",
+    "dev": "envio dev",
+    "start": "envio start",
+    "stop": "envio stop",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "envio": "^2.0.0",
+    "typescript": "^5.0.0",
+    "mocha": "^10.0.0",
+    "@types/mocha": "^10.0.0"
+  },
+  "optionalDependencies": {
+    "generated": "./generated"
+  }
+}
